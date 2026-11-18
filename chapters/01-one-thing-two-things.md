@@ -40,10 +40,10 @@ A pile contains eight short sticks. Another contains five long sticks. Does the 
 
 He laid five equal stones in a row.
 
-\`\`\`text
+```text
 ●  ●  ●  ●  ●
 1  2  3  4  5
-\`\`\`
+```
 
 The final word, *five*, named the number of stones. The stones did not need to be in a row. He could move them into a circle and count again.
 
@@ -63,15 +63,15 @@ There is a limitation. A pile of five stones and a pile of five shells have the 
 
 He placed two stones to the left of a line and three to the right.
 
-\`\`\`text
+```text
 ● ●   |   ● ● ●
-\`\`\`
+```
 
 Removing the line gave one collection of five stones.
 
-\`\`\`text
+```text
 ● ● ● ● ●
-\`\`\`
+```
 
 His memory supplied the familiar expression:
 
@@ -89,9 +89,9 @@ The condition matters. If he counts the *same* stone in both groups, adding the 
 
 He moved the groups around.
 
-\`\`\`text
+```text
 ● ● ●   |   ● ●
-\`\`\`
+```
 
 This time he counted three first, then two. There were still five stones.
 
@@ -111,9 +111,9 @@ He remembered that this property had a name. He did not need the name to see why
 
 He divided six stones into three groups:
 
-\`\`\`text
+```text
 ●   |   ● ●   |   ● ● ●
-\`\`\`
+```
 
 He could combine the first two groups, then the third:
 
@@ -138,6 +138,14 @@ Thus, for counts of separate groups:
 The letters do not introduce a mysterious new operation. They stand for any three counts of separate groups. We have given a general reason, rather than checking just one set of numbers: either grouping combines exactly the same objects.
 
 *Later label:* **associativity of addition**.
+
+## A question that refuses to leave
+
+The castaway had explained why rearranging his stones did not change their count. Yet the explanation itself relied on ideas he had not examined: *What is a number? What guarantees that the same procedure works for every number? What would it mean to prove a rule without inspecting every possible pile?*
+
+That evening he set aside a second stone for a more demanding notebook.
+
+**[Interlude 01A — The Laws Beneath the Stones](01a-laws-beneath-the-stones.md)** reconstructs addition from finite sets and Peano arithmetic, proves its central laws, extends it to integers, and examines the limits of those laws in abstract algebra, infinite arithmetic, and computation. It has its own [twenty-part mastery tracker](../ADDITION_MASTERY.csv). The story continues in Chapter 02; the interlude is the deep-proof route for readers who want to own addition before moving on.
 
 ## Notebook 01.5 — What we have, and what we have not proved
 
