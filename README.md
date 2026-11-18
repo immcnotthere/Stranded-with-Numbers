@@ -36,6 +36,8 @@ We will begin with remembered arithmetic, justify its rules, proceed through num
 
 - [Introduction — What Remains](INTRODUCTION.md)
 - [Chapter 01 — One Thing, Two Things](chapters/01-one-thing-two-things.md)
+- [Interlude 01A — The Laws Beneath the Stones](chapters/01a-laws-beneath-the-stones.md)
+- [Addition foundations mastery tracker](ADDITION_MASTERY.csv)
 - [Book roadmap](ROADMAP.md)
 - [Concept dependencies and learning method](LEARNING_PATH.md)
 - [Lesson mastery tracker](CONCEPT_TRACKER.csv)
