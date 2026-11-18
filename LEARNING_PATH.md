@@ -1,6 +1,6 @@
 # Concept Dependencies & Learning Progress
 
-This file is the readable companion to [CONCEPT_TRACKER.csv](CONCEPT_TRACKER.csv). The CSV is the **editable source of truth** for lesson status, scores, review dates, and notes.
+This file is the readable companion to [CONCEPT_TRACKER.csv](CONCEPT_TRACKER.csv). The CSV is the **editable source of truth** for lesson status, scores, review dates, and notes. Detailed addition prerequisites live separately in [ADDITION_MASTERY.csv](ADDITION_MASTERY.csv).
 
 ## What the castaway remembers
 
@@ -9,6 +9,42 @@ The castaway can **count, add, subtract, multiply, and divide**, including ordin
 He has scattered memories of school: **sine, cosine, angles, geometry, and linear equations**. He remembers only the words—not a single definition, identity, value, formula, or method. These are narrative clues, not usable mathematical knowledge.
 
 **The challenge is no longer to invent arithmetic without knowing it. It is to justify familiar arithmetic, discover what it can do, and rebuild the forgotten mathematics of change.**
+
+## The addition foundations branch
+
+**The original 40 lessons are chapter milestones, not a complete prerequisite inventory.** Chapter 01 now has a rigorous optional-depth companion, [Interlude 01A](chapters/01a-laws-beneath-the-stones.md), with **20 separately trackable competencies** in [ADDITION_MASTERY.csv](ADDITION_MASTERY.csv). This avoids renumbering every later chapter.
+
+```mermaid
+flowchart TD
+  A01["A01 Units and bijections"] --> A02["A02 Disjoint union"]
+  A01 --> A03["A03 Peano axioms and induction"]
+  A03 --> A04["A04 Recursive addition"]
+  A04 --> A05["A05 Identity and closure"]
+  A05 --> A06["A06 Associativity"]
+  A06 --> A07["A07 Commutativity"]
+  A04 --> A08["A08 Cancellation"]
+  A06 --> A09["A09 Order translation"]
+  A02 --> A10["A10 Set-theoretic interpretation"]
+  A07 --> A11["A11 Monoids and groups"]
+  A08 --> A12["A12 Integer group completion"]
+  A11 --> A12
+  A12 --> A13["A13 Rationals and reals"]
+  A07 --> A14["A14 Multiplication and distributivity"]
+  A13 --> A15["A15 Finite and infinite sums"]
+  A11 --> A16["A16 Universal property"]
+  A10 --> A17["A17 Ordinal/cardinal exceptions"]
+  A13 --> A18["A18 Floating point"]
+  A16 --> A19["A19 Philosophy of proof"]
+  A19 --> A20["A20 Comprehensive defense"]
+  A17 --> A20
+  A18 --> A20
+  A15 --> A20
+  A14 --> A20
+```
+
+**The diagram shows the main route, not every edge.** The complete, exact per-competency prerequisites are in the addition CSV. Core readiness for Chapter 02: A01–A02 plus the main Chapter 01 lesson. Deep mastery of addition: A01–A20 at score 4. Later chapters can rely on the core route while the foundations branch remains available.
+
+**Important sequence distinction:** The formal interlude deliberately looks ahead to zero, negatives, multiplication, fractions, and limits. It is a **foundations appendix** that proves and classifies familiar ideas; it is not the chronological order in which the castaway discovers them in the main story.
 
 ## The learning path
 
