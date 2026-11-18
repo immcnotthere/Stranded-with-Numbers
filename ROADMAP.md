@@ -27,7 +27,7 @@ He has scattered memories of school: **sine, cosine, angles, geometry, and linea
 7. **Avoid artificial survival problems.** The island is a narrative constraint, not an excuse for contrived word problems.
 8. **Familiar names are clues, not shortcuts.** Only the *names* sine, cosine, angles, geometry, and linear equations are remembered. No trigonometric values, identities, definitions, formulas, or procedures are available.
 
-**Dependency policy:** The 40-chapter [concept tracker](CONCEPT_TRACKER.csv) tracks narrative milestones. [ADDITION_MASTERY.csv](ADDITION_MASTERY.csv) tracks the twenty underlying proof competencies for Chapter 01A. Do not confuse remembered computational ability with demonstrated foundational mastery.
+**Dependency policy:** The 40-chapter [concept tracker](CONCEPT_TRACKER.csv) tracks narrative milestones. [ADDITION_MASTERY.csv](ADDITION_MASTERY.csv) tracks the twenty underlying proof competencies for Chapter 01A. Both trackers include **Reference IDs** linked to [verified sources](REFERENCES.md) for studied material. Later chapters have blank reference fields until their claims are actually checked. Do not confuse remembered computational ability with demonstrated foundational mastery.
 
 ## The six acts
 
@@ -146,6 +146,7 @@ Each chapter should be written in this order:
 5. **The invention** — Introduce a name or notation only after the need is clear.
 6. **The challenge** — A concrete numerical problem for the reader to solve independently.
 7. **The ledger** — Record what is proved, what is observed, and what remains unresolved; update the concept tracker.
+8. **The source audit** — Attach [verified references](REFERENCES.md) adjacent to claims. Distinguish a text that states a rule from one that proves it; never cite OpenStax as providing an advanced proof that it does not contain.
 
 ## Editorial decisions to settle together
 
