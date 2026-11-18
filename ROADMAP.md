@@ -6,6 +6,8 @@
 
 This is a **working editorial roadmap**, not a fixed syllabus. Each chapter should be revised together before it becomes finished prose.
 
+**Chosen voice: story + mathematical notebook.** A short castaway scene motivates each problem; a direct notebook reconstructs the mathematics with finite calculations before introducing new notation. See [LEARNING_PATH.md](LEARNING_PATH.md) for the dependency graph and [CONCEPT_TRACKER.csv](CONCEPT_TRACKER.csv) for lesson-by-lesson progress.
+
 ## Rules of the island
 
 1. **Addition is the only starting operation.** Other operations must be motivated and constructed.
@@ -126,22 +128,22 @@ This is a **working editorial roadmap**, not a fixed syllabus. Each chapter shou
 
 Each chapter should be written in this order:
 
-1. **The predicament** — A short, plausible scene or problem.
-2. **What we know** — Only previously earned operations and facts.
-3. **An attempt** — Calculate a small example by hand.
+1. **The scene** — A short, plausible castaway episode posing a concrete problem.
+2. **The notebook: what we know** — Only previously earned operations and facts.
+3. **The notebook: an attempt** — Calculate a small example by hand.
 4. **The discovery** — Identify the reusable pattern.
 5. **The invention** — Introduce a name or notation only after the need is clear.
-6. **The challenge** — A concrete numerical problem for the reader.
-7. **The ledger** — Record what is proved, what is observed, and what remains unresolved.
+6. **The challenge** — A concrete numerical problem for the reader to solve independently.
+7. **The ledger** — Record what is proved, what is observed, and what remains unresolved; update the concept tracker.
 
 ## Editorial decisions to settle together
 
-- **Narrator:** first-person castaway, second-person challenge, or a spare third-person story?
+- **Narrator:** settled — a short castaway story followed by a direct mathematical notebook.
 - **Scope:** stop at foundational single-variable calculus, or add vectors, multivariable calculus, linear algebra, and differential equations as later volumes?
 - **Proof policy:** do we postpone all formal convergence arguments until Act VI, or permit elementary finite bounds earlier?
 - **Geometry order:** should the circle and complex numbers come before exponential growth, or should the discovery of e come first?
 - **Exercises:** a short numerical challenge after every discovery, or longer end-of-act expeditions?
-- **Tone:** whimsical mathematical fable, restrained literary nonfiction, or an alternation between story and technical notebook?
+- **Tone:** settled — playful but restrained narrative; exacting numerical notebook.
 
 ## Current status
 
@@ -149,6 +151,7 @@ Each chapter should be written in this order:
 - [x] Introductory README
 - [x] Initial six-act roadmap
 - [ ] Agree on act order and chapter count
-- [ ] Agree on narrator and style
+- [x] Agree on narrator and style
+- [x] Create dependency graph and lesson mastery tracker
 - [ ] Draft Chapter 01
 - [ ] Review and revise Chapter 01 together
