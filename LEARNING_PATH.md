@@ -1,6 +1,6 @@
 # Concept Dependencies & Learning Progress
 
-This file is the readable companion to [CONCEPT_TRACKER.csv](CONCEPT_TRACKER.csv). The CSV is the **editable source of truth** for lesson status, scores, review dates, and notes. Detailed addition prerequisites live separately in [ADDITION_MASTERY.csv](ADDITION_MASTERY.csv).
+This file is the readable companion to [CONCEPT_TRACKER.csv](CONCEPT_TRACKER.csv). The CSV is the **editable source of truth** for lesson status, scores, review dates, notes, **and checked reference IDs**. Detailed addition prerequisites live separately in [ADDITION_MASTERY.csv](ADDITION_MASTERY.csv); source links and what each source actually establishes are in [REFERENCES.md](REFERENCES.md).
 
 ## What the castaway remembers
 
@@ -42,9 +42,22 @@ flowchart TD
   A14 --> A20
 ```
 
-**The diagram shows the main route, not every edge.** The complete, exact per-competency prerequisites are in the addition CSV. Core readiness for Chapter 02: main Lesson 01 plus A01–A02 (units, bijections, disjoint union). The main tracker explicitly lists these cross-tracker prerequisites. A03–A20 are the optional rigorous-depth branch; they become required only for the comprehensive addition-defense milestone. Deep mastery of addition: A01–A20 at score 4. Later chapters can rely on the core route while the foundations branch remains available.
+**The diagram shows the main route, not every edge.** The complete, exact per-competency prerequisites and the sources supporting each are in the addition CSV. Core readiness for Chapter 02: main Lesson 01 plus A01–A02 (units, bijections, disjoint union). The main tracker explicitly lists these cross-tracker prerequisites. A03–A20 are the optional rigorous-depth branch; they become required only for the comprehensive addition-defense milestone. Deep mastery of addition: A01–A20 at score 4. Later chapters can rely on the core route while the foundations branch remains available.
 
 **Important sequence distinction:** The formal interlude deliberately looks ahead to zero, negatives, multiplication, fractions, and limits. It is a **foundations appendix** that proves and classifies familiar ideas; it is not the chronological order in which the castaway discovers them in the main story.
+
+## Source-to-concept index (verified addition branch)
+
+| Competencies | Primary reference IDs | Why these sources |
+|---|---|---|
+| A01–A02: units, bijections, cardinal union | [O4](REFERENCES.md#o4), [O5](REFERENCES.md#o5), [S2](REFERENCES.md#s2) | Introductory set counts and precise finite-set matching |
+| A03–A09: successor, induction, laws, cancellation, order | [U1](REFERENCES.md#u1), [S9](REFERENCES.md#s9), [O2](REFERENCES.md#o2) | University-level formal arithmetic; OpenStax states the elementary properties |
+| A10–A13: sets, algebraic structures, integers, rationals | [S2](REFERENCES.md#s2), [S3](REFERENCES.md#s3), [U2](REFERENCES.md#u2), [S1](REFERENCES.md#s1) | Set constructions and algebraic extensions |
+| A14–A16: multiplication, sums, universal property | [U1](REFERENCES.md#u1), [O6](REFERENCES.md#o6), [S3](REFERENCES.md#s3) | Proof methods, infinite-series caveats, free monoids |
+| A17–A18: exceptions | [S4](REFERENCES.md#s4), [S5](REFERENCES.md#s5) | Ordinals and finite-precision arithmetic |
+| A19–A20: foundational defense | [S6](REFERENCES.md#s6), [S7](REFERENCES.md#s7), [S8](REFERENCES.md#s8), [S9](REFERENCES.md#s9) | Philosophy of mathematical structures and formal provability |
+
+**Reference IDs identify source coverage, not mastery.** A citation does not mean the reader has proved a claim. OpenStax supports the elementary introduction, not the Peano induction proofs. The full 20-row source mapping is in [ADDITION_MASTERY.csv](ADDITION_MASTERY.csv). References for lessons 03–40 will be assigned when those chapters are written and verified, rather than guessed now.
 
 ## The learning path
 
@@ -125,3 +138,4 @@ Each lesson should be short enough to feel like one discovery. The story should 
 - Edit [CONCEPT_TRACKER.csv](CONCEPT_TRACKER.csv) to track lesson mastery.
 - Update the concept prerequisites whenever chapters are added, removed, or reordered.
 - Keep all initial statuses at **Not started** until a mastery check is actually attempted.
+- For new content, [check primary source sections](REFERENCES.md) before populating a reference ID; record whether a claim is **stated**, **proved**, or **only contextualized**.
