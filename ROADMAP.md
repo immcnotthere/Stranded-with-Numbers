@@ -12,7 +12,7 @@ This is a **working editorial roadmap**, not a fixed syllabus. Each chapter shou
 
 The castaway can **count, add, subtract, multiply, and divide**, including ordinary calculations with fractions. These are remembered procedures, **not yet justified mathematical ideas**. He does not know why the rules work, when they fail, or how to reconstruct them from first principles.
 
-He has scattered memories of school: **sine, cosine, angles, geometry, and linear equations**. These are clues and narrative foreshadowing, not tools he may invoke without rebuilding them.
+He has scattered memories of school: **sine, cosine, angles, geometry, and linear equations**. He remembers only the words—not a single definition, identity, value, formula, or method. These are narrative clues, not usable mathematical knowledge.
 
 **The challenge is no longer to invent arithmetic without knowing it. It is to justify familiar arithmetic, discover what it can do, and rebuild the forgotten mathematics of change.**
 
@@ -25,7 +25,7 @@ He has scattered memories of school: **sine, cosine, angles, geometry, and linea
 5. **Separate evidence from proof.** Numerical patterns motivate conjectures; they do not alone establish exact identities.
 6. **Keep an invention ledger.** State exactly which tools have been earned and which claims remain conjectural.
 7. **Avoid artificial survival problems.** The island is a narrative constraint, not an excuse for contrived word problems.
-8. **Familiar names are clues, not shortcuts.** Sine, cosine, angles, geometry, and linear equations are vague memories; their meaning must be recovered through problems and calculations.
+8. **Familiar names are clues, not shortcuts.** Only the *names* sine, cosine, angles, geometry, and linear equations are remembered. No trigonometric values, identities, definitions, formulas, or procedures are available.
 
 ## The six acts
 
