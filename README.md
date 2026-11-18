@@ -4,7 +4,7 @@
 ## Calculus from Addition Alone
 *The Desert Island Challenge: Reconstructing Mathematics from First Principles*
 
-Suppose we were stranded on a desert island remembering how to count, add, subtract, multiply, and divide—but unable to explain why any of it works. We vaguely recall something about sine, cosine, angles, geometry, and linear equations. We remember the names, not their meaning. We have no textbook, no calculator, and certainly no working knowledge of calculus.
+Suppose we were stranded on a desert island remembering how to count, add, subtract, multiply, and divide—but unable to explain why any of it works. We vaguely recall hearing words like sine, cosine, angles, geometry, and linear equations—but remember no definitions, formulas, identities, or worked examples. We have no textbook, no calculator, and certainly no working knowledge of calculus.
 
 **Could we justify the arithmetic we remember and use it to reconstruct the mathematics of continuous change?**
 
