@@ -18,6 +18,8 @@ The problem was no longer how to obtain an answer. It was how to **defend** one.
 
 ## Notebook A — What sort of thing is addition?
 
+*Source policy:* The citations below link to the [verified reference ledger](../REFERENCES.md). An introductory source that **states** a law is not credited with **proving** it. The proofs labeled below are reconstructed in this notebook using explicitly stated axioms; their formal method is checked against [university logic notes](../REFERENCES.md#u1).
+
 We must name the domain. A *binary operation* on a set \(X\) is a function \(X\times X\to X\): every ordered pair of elements has exactly one output in \(X\). **Closure** is built into this definition.
 
 Ordinary addition of natural numbers, integers, rational numbers, real numbers, complex numbers, and vectors shares several laws. Other operations called *addition* need not share them all.
@@ -37,7 +39,7 @@ Ordinary addition of natural numbers, integers, rational numbers, real numbers, 
 | Finite sums | \(\sum_{k=1}^{n}a_k\) | Repeated addition; grouping is licensed by associativity |
 | Infinite series | \(\sum_{k=1}^{\infty}a_k\) | A limit of finite sums; requires additional foundations |
 
-**Question to keep asking:** Is a claim a definition, an axiom, a theorem, or an interpretation?
+**Question to keep asking:** Is a claim a definition, an axiom, a theorem, or an interpretation? For an elementary statement of the usual laws, compare [OpenStax *Prealgebra* §7.2](../REFERENCES.md#o2) and [§7.4](../REFERENCES.md#o3). The [algebraic-structure reference](../REFERENCES.md#s3) supports generalizing beyond ordinary numbers.
 
 ## Notebook B — Two rigorous constructions
 
@@ -55,6 +57,8 @@ Swapping tags gives a bijection \(A\sqcup B\cong B\sqcup A\): this explains comm
 
 For physical stones, however, **do not tag the same stone twice** if you mean to count unique stones. The formal disjoint union counts occurrences; the physical union counts distinct objects. The difference explains his mistaken ledger.
 
+*Verification:* [OpenStax *Contemporary Mathematics* §1.1](../REFERENCES.md#o4) introduces finite cardinalities; [§1.4](../REFERENCES.md#o5) states inclusion-exclusion for overlapping sets. The bijective treatment and finite-ordinal construction are developed in [the Stanford set-theory account](../REFERENCES.md#s2). Our tagged-union argument supplies the direct proof.
+
 ### B2. Zero, successor, and induction
 
 We now make a deliberate foundational detour. This is not a tool the castaway already possesses: it is a theory he is proposing to justify counting.
@@ -67,7 +71,7 @@ Let \(\mathbb N\) include \(0\). Assume a successor operation \(S\), with \(0\) 
 a+0=a,\qquad a+S(b)=S(a+b).
 \]
 
-A recursion theorem (whose proof uses the natural-number foundations) ensures that these equations determine a unique operation. We have not smuggled in commutativity or associativity.
+In a set-theoretic or second-order Peano construction, a recursion theorem (whose proof uses the natural-number foundations) ensures that these equations determine a unique operation. **First-order Peano arithmetic is presented differently:** addition is normally a primitive function symbol constrained by recursive axioms and an induction schema. These are two formal presentations, not an assertion that a first-order axiom schema alone uniquely specifies the standard model. We have not smuggled in commutativity or associativity. Compare [university notes on induction](../REFERENCES.md#u1) and [the formal-arithmetic account](../REFERENCES.md#s9).
 
 For instance,
 
@@ -76,6 +80,8 @@ For instance,
 \]
 
 ### B3. Proof of left identity
+
+The next four proofs are **our derivations from the displayed recursion rules and induction**, not proofs copied or attributed to OpenStax. For the proof method, see [U1](../REFERENCES.md#u1).
 
 Base case: \(0+0=0\). If \(0+n=n\), then
 
@@ -133,7 +139,7 @@ a+S(c)=b+S(c),
 
 then \(S(a+c)=S(b+c)\). Injectivity of successor gives \(a+c=b+c\), and the inductive hypothesis gives \(a=b\).
 
-**Notice:** Associativity and commutativity alone do not imply cancellation. A monoid can lack it.
+**Notice:** Associativity and commutativity alone do not imply cancellation. A monoid can lack it; the distinction belongs to the abstract-algebra setting discussed in [S3](../REFERENCES.md#s3).
 
 ### B7. Order and monotonicity
 
@@ -143,7 +149,7 @@ Define \(a<b\) on natural numbers when there exists a **positive** natural numbe
 b+c=(a+k)+c=(a+c)+k,
 \]
 
-so \(a+c<b+c\). The non-strict version follows similarly. The proof uses associativity and the definition of order; it does not make sense for arbitrary unordered objects.
+so \(a+c<b+c\). The non-strict version follows similarly. The proof uses associativity and the definition of order; it does not make sense for arbitrary unordered objects. This is a **new theorem relative to the specified order**, not merely another restatement of commutativity.
 
 ## The third morning: a debt of stones
 
@@ -155,7 +161,7 @@ Natural-number addition could combine counts, but it could not always undo them.
 
 A **magma** is a set with a closed binary operation. A **semigroup** has an associative operation. A **monoid** also has an identity. A **group** also has inverses. An **abelian group** is a commutative group.
 
-The natural numbers with \(+\) and \(0\) form a **commutative monoid**, not a group: \(3+x=0\) has no natural-number solution.
+The natural numbers with \(+\) and \(0\) form a **commutative monoid**, not a group: \(3+x=0\) has no natural-number solution. For monoids and free algebraic structures, see [S3](../REFERENCES.md#s3).
 
 Construct integers from pairs of natural numbers. Interpret \((a,b)\) as a formal difference, and declare
 
@@ -169,7 +175,7 @@ This is an equivalence relation, using cancellation to prove transitivity. Defin
 [(a,b)]+[(c,d)]=[(a+c,b+d)].
 \]
 
-One must check this operation is **well-defined**: replacing a pair by an equivalent representative leaves the resulting equivalence class unchanged. The inverse of \([(a,b)]\) is \([(b,a)]\), and zero is \([(0,0)]\). This construction is the **group completion** of \((\mathbb N,+)\).
+One must check this operation is **well-defined**: replacing a pair by an equivalent representative leaves the resulting equivalence class unchanged. The inverse of \([(a,b)]\) is \([(b,a)]\), and zero is \([(0,0)]\). This construction is the **group completion** of \((\mathbb N,+)\). The equivalence relation, addition rule, and inverse are explicitly constructed in [Dumas–McCarthy §8.2](../REFERENCES.md#u2); [Stanford's *Set Theory*](../REFERENCES.md#s1) also describes integer construction from pairs.
 
 For example, \([(1,3)]\) represents two stones owed; \([(5,2)]\) represents three stones in surplus. Adding them produces a net surplus of one.
 
@@ -177,7 +183,7 @@ The identity in a monoid is unique: if \(e\) and \(f\) are both two-sided identi
 
 ### The next extensions
 
-Rational numbers can be constructed as equivalence classes of integer numerator–nonzero-denominator pairs. Real numbers require an additional completeness construction, such as Dedekind cuts or Cauchy sequences of rationals. Their additive operations inherit or extend the relevant group laws, but their construction and completeness are **not** consequences of the addition laws alone.
+Rational numbers can be constructed as equivalence classes of integer numerator–nonzero-denominator pairs. Real numbers require an additional completeness construction, such as Dedekind cuts or Cauchy sequences of rationals. Their additive operations inherit or extend the relevant group laws, but their construction and completeness are **not** consequences of the addition laws alone. [Stanford's *Set Theory*](../REFERENCES.md#s1) supports the quotient construction of the integers and rationals; the full real-number construction is **postponed**, not proved here.
 
 Multiplication introduces new structure. For natural numbers, one may define \(a\cdot0=0\) and \(a\cdot S(b)=a\cdot b+a\); distributivity is then proved by induction. Distributivity links two operations and should not be misclassified as an axiom of addition by itself.
 
@@ -185,18 +191,18 @@ Multiplication introduces new structure. For natural numbers, one may define \(a
 
 The natural numbers with addition are the **free commutative monoid on one generator**. Given any commutative monoid \(M\) and any \(x\in M\), there is a unique monoid homomorphism \(f:\mathbb N\to M\) with \(f(1)=x\), defined by \(f(n)\) as \(n\) copies of \(x\) added together (and \(f(0)\) as the identity).
 
-This *universal property* tells us what counting does in every commutative monoid. It characterizes the structure by its relationships, rather than by the material from which its elements are made.
+This *universal property* tells us what counting does in every commutative monoid. See [Stanford's *Algebra* entry](../REFERENCES.md#s3) for free monoids and the one-generator case. The formula for \(f(n)\) above explains the specific universal map; proving uniqueness is a reader proof obligation. It characterizes the structure by its relationships, rather than by the material from which its elements are made.
 
-Set theory offers another foundation. In the von Neumann construction, \(0=\varnothing\), \(S(n)=n\cup\{n\}\), so \(1=\{0\}\), \(2=\{0,1\}\), and so forth. This represents natural numbers as sets. The representation is a construction, **not** a claim that the physical number two literally consists of two stones.
+Set theory offers another foundation. In the von Neumann construction, \(0=\varnothing\), \(S(n)=n\cup\{n\}\), so \(1=\{0\}\), \(2=\{0,1\}\), and so forth. This represents natural numbers as sets. The representation is a construction, **not** a claim that the physical number two literally consists of two stones. [Stanford's detailed set-theory appendix](../REFERENCES.md#s2) provides the finite-ordinal presentation.
 
 ## Notebook E — Where addition's laws fail
 
 Knowing a theorem includes knowing its hypotheses.
 
-1. **Ordinal addition is not commutative.** If \(\omega\) is the order type of the natural numbers, then \(1+\omega=\omega\) but \(\omega+1>\omega\). Adding a first element differs from appending a last element.
-2. **Infinite cardinal addition does not have cancellation.** \(1+\aleph_0=2+\aleph_0=\aleph_0\), although \(1\ne2\).
-3. **Floating-point addition need not be associative.** In IEEE 754 binary64 with round-to-nearest, \((10^{16}+(-10^{16}))+1=1\), while \(10^{16}+((-10^{16})+1)=0\). The machine computes rounded approximations, not exact real addition.
-4. **Infinite sums require convergence.** A series is defined through a sequence of finite partial sums. Conditionally convergent real series can change value under rearrangement; absolute convergence is a sufficient safeguard.
+1. **Ordinal addition is not commutative.** If \(\omega\) is the order type of the natural numbers, then \(1+\omega=\omega\) but \(\omega+1>\omega\). Adding a first element differs from appending a last element. See [MathWorld, *Ordinal Addition*](../REFERENCES.md#s4).
+2. **Infinite cardinal addition does not have cancellation.** \(1+\aleph_0=2+\aleph_0=\aleph_0\), although \(1\ne2\). This follows by explicit bijections between a countably infinite set and that set with one or two extra elements; see [bijections and infinite cardinality](../REFERENCES.md#s2).
+3. **Floating-point addition need not be associative.** In IEEE 754 binary64 with round-to-nearest, \((10^{16}+(-10^{16}))+1=1\), while \(10^{16}+((-10^{16})+1)=0\). The machine computes rounded approximations, not exact real addition. The loss of associativity is documented by the [Java Language Specification](../REFERENCES.md#s5); these particular values are our reproducible example.
+4. **Infinite sums require convergence.** A series is defined through a sequence of finite partial sums. Conditionally convergent real series can change value under rearrangement; absolute convergence is a sufficient safeguard. See [OpenStax *Calculus Volume 2* §5.5](../REFERENCES.md#o6), which supplies examples but not a full proof of the general rearrangement theorem.
 5. **Order is extra structure.** Ordinary real addition preserves order under translation. Complex numbers cannot be given an order making them an ordered field.
 
 None of these contradict the natural-number proofs. They concern different domains, different operations, or additional rules.
@@ -214,11 +220,11 @@ Four philosophical readings are useful:
 - **Constructivism:** mathematical assertions are justified by constructions or proofs.
 - **Structuralism:** what matters is the role of numbers in a structure, not their particular representation.
 
-These are philosophical positions, not four alternative calculations.
+These are philosophical positions, not four alternative calculations. See the Stanford Encyclopedia of Philosophy on [Platonism](../REFERENCES.md#s7), [formalism](../REFERENCES.md#s8), and [structuralism](../REFERENCES.md#s6). Constructivism is presented here as a broad interpretive orientation, not a claim that those entries provide its full defense.
 
 **Truth, definition, and proof are different notions.** The recursive equations *define* addition on the natural numbers. Commutativity is then a *theorem*. A claim's truth in a structure is conceptually distinct from its provability in a particular formal theory.
 
-We cannot prove every premise without using some premises and rules of inference. Peano arithmetic and set theory make different starting assumptions. Gödel's incompleteness theorems concern sufficiently expressive, consistent, effectively axiomatized systems; they do **not** undermine our elementary proofs of addition.
+We cannot prove every premise without using some premises and rules of inference. Peano arithmetic and set theory make different starting assumptions. Gödel's incompleteness theorems concern sufficiently expressive, consistent, effectively axiomatized systems; they do **not** undermine our elementary proofs of addition. [Stanford's treatment of incompleteness](../REFERENCES.md#s9) carefully specifies the hypotheses and the difference between provability relative to a formal system and an unrestricted notion of truth.
 
 ## Notebook G — The defense
 
@@ -227,6 +233,13 @@ If someone asks, *“Why should I believe addition works?”*, the castaway can 
 > First specify what is being added. For finite collections, disjoint union and one-to-one correspondence explain the counting interpretation. For natural numbers, successor, induction, and recursive definition give an exact operation whose identity, associativity, commutativity, and cancellation laws we can prove. The integers extend that operation by constructing additive inverses. Abstract algebra records which laws survive in other settings. Where the hypotheses change, the laws may fail.
 
 He had not discovered a formula for everything. He had learned how to know **which** formulas he was entitled to use.
+
+## Source audit
+
+- **Elementary claims:** [O1–O5](../REFERENCES.md) support the usual operations, laws, cardinalities, and disjoint-union counting; OpenStax does **not** supply the Peano proofs.
+- **Formal foundations:** [U1](../REFERENCES.md#u1), [S1](../REFERENCES.md#s1), and [S2](../REFERENCES.md#s2) ground the axiomatic and set-theoretic constructions; the induction proofs above are explicit notebook derivations.
+- **Advanced extensions and exceptions:** [U2](../REFERENCES.md#u2), [S3–S5](../REFERENCES.md), and [O6](../REFERENCES.md#o6) cover integers, universal structures, noncommutative ordinal addition, floating-point rounding, and infinite series.
+- **Philosophy:** [S6–S9](../REFERENCES.md) ground the perspectives and the qualifications concerning formal proofs and incompleteness.
 
 ## Proof obligations and exercises
 
