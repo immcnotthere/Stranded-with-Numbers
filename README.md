@@ -35,6 +35,7 @@ We will begin with remembered arithmetic, justify its rules, proceed through num
 ## Read and study
 
 - [Introduction — What Remains](INTRODUCTION.md)
+- [Chapter 01 — One Thing, Two Things](chapters/01-one-thing-two-things.md)
 - [Book roadmap](ROADMAP.md)
 - [Concept dependencies and learning method](LEARNING_PATH.md)
 - [Lesson mastery tracker](CONCEPT_TRACKER.csv)
