@@ -42,7 +42,7 @@ flowchart TD
   A14 --> A20
 ```
 
-**The diagram shows the main route, not every edge.** The complete, exact per-competency prerequisites are in the addition CSV. Core readiness for Chapter 02: A01–A02 plus the main Chapter 01 lesson. Deep mastery of addition: A01–A20 at score 4. Later chapters can rely on the core route while the foundations branch remains available.
+**The diagram shows the main route, not every edge.** The complete, exact per-competency prerequisites are in the addition CSV. Core readiness for Chapter 02: main Lesson 01 plus A01–A02 (units, bijections, disjoint union). The main tracker explicitly lists these cross-tracker prerequisites. A03–A20 are the optional rigorous-depth branch; they become required only for the comprehensive addition-defense milestone. Deep mastery of addition: A01–A20 at score 4. Later chapters can rely on the core route while the foundations branch remains available.
 
 **Important sequence distinction:** The formal interlude deliberately looks ahead to zero, negatives, multiplication, fractions, and limits. It is a **foundations appendix** that proves and classifies familiar ideas; it is not the chronological order in which the castaway discovers them in the main story.
 
@@ -87,7 +87,7 @@ The diagram groups chapters for readability. **Exact prerequisites for each indi
 
 **Mastery scale:** 0 = unseen; 1 = recognize the idea; 2 = follow a worked example; 3 = solve independently; 4 = explain, derive, and apply in a new setting.
 
-**Recommended unlock rule:** Begin a lesson when all its prerequisite lessons have a score of at least **3**. This is a study recommendation, not a mathematical theorem; we may deliberately explore ahead.
+**Recommended unlock rule:** Begin a lesson when all its prerequisite lessons and cross-tracker concept IDs have a score of at least **3**. This is a study recommendation, not a mathematical theorem; we may deliberately explore ahead.
 
 ## Lesson routine
 
