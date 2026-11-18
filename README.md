@@ -1,8 +1,10 @@
 # Stranded with Numbers
 *An Islander's Guide to Reinventing Mathematics*
 
-## Calculus from Addition Alone
-*The Desert Island Challenge: Reconstructing Mathematics from First Principles*
+## Reconstructing mathematics from remembered arithmetic
+*An island story and a mathematical notebook*
+
+**[Begin reading: Introduction — What Remains](INTRODUCTION.md)**
 
 Suppose we were stranded on a desert island remembering how to count, add, subtract, multiply, and divide—but unable to explain why any of it works. We vaguely recall hearing words like sine, cosine, angles, geometry, and linear equations—but remember no definitions, formulas, identities, or worked examples. We have no textbook, no calculator, and certainly no working knowledge of calculus.
 
@@ -29,3 +31,10 @@ Along the way, we will find that multiplication can describe both growth and rot
 **Our governing rule is simple: Never introduce a new mathematical idea before showing why we need it and how we might construct it from what we already know.**
 
 We will begin with remembered arithmetic, justify its rules, proceed through numerical approximations, and introduce more sophisticated mathematics only when our existing tools prove insufficient. The goal is not merely to learn calculus, but to understand how we could have discovered it ourselves.
+
+## Read and study
+
+- [Introduction — What Remains](INTRODUCTION.md)
+- [Book roadmap](ROADMAP.md)
+- [Concept dependencies and learning method](LEARNING_PATH.md)
+- [Lesson mastery tracker](CONCEPT_TRACKER.csv)
