@@ -2,22 +2,30 @@
 
 *An Islander's Guide to Reinventing Mathematics*
 
-> **The challenge:** Reconstruct the computational ideas of calculus from counting and addition alone, without importing familiar formulas as unexplained facts.
+> **The challenge:** Reconstruct the computational ideas of calculus using remembered arithmetic whose rules we cannot yet justify. No advanced formula may be used merely because its name sounds familiar.
 
 This is a **working editorial roadmap**, not a fixed syllabus. Each chapter should be revised together before it becomes finished prose.
 
 **Chosen voice: story + mathematical notebook.** A short castaway scene motivates each problem; a direct notebook reconstructs the mathematics with finite calculations before introducing new notation. See [LEARNING_PATH.md](LEARNING_PATH.md) for the dependency graph and [CONCEPT_TRACKER.csv](CONCEPT_TRACKER.csv) for lesson-by-lesson progress.
 
+## What the castaway remembers
+
+The castaway can **count, add, subtract, multiply, and divide**, including ordinary calculations with fractions. These are remembered procedures, **not yet justified mathematical ideas**. He does not know why the rules work, when they fail, or how to reconstruct them from first principles.
+
+He has scattered memories of school: **sine, cosine, angles, geometry, and linear equations**. These are clues and narrative foreshadowing, not tools he may invoke without rebuilding them.
+
+**The challenge is no longer to invent arithmetic without knowing it. It is to justify familiar arithmetic, discover what it can do, and rebuild the forgotten mathematics of change.**
+
 ## Rules of the island
 
-1. **Addition is the only starting operation.** Other operations must be motivated and constructed.
+1. **Arithmetic is remembered, not earned.** Counting, addition, subtraction, multiplication, division, and basic fractions may be used computationally from day one; their properties and justifications must be reconstructed.
 2. **A problem precedes its tool.** Every chapter begins with a concrete challenge a castaway could encounter.
 3. **Calculate before naming.** Use small, reproducible examples before introducing notation.
 4. **Finite arithmetic first.** No limits, derivatives, integrals, or infinite sums are assumed at the outset.
 5. **Separate evidence from proof.** Numerical patterns motivate conjectures; they do not alone establish exact identities.
 6. **Keep an invention ledger.** State exactly which tools have been earned and which claims remain conjectural.
 7. **Avoid artificial survival problems.** The island is a narrative constraint, not an excuse for contrived word problems.
-8. **Addition alone is a starting language, not a claim that all mathematics can be proved from addition without further definitions or assumptions.**
+8. **Familiar names are clues, not shortcuts.** Sine, cosine, angles, geometry, and linear equations are vague memories; their meaning must be recovered through problems and calculations.
 
 ## The six acts
 
@@ -34,7 +42,7 @@ This is a **working editorial roadmap**, not a fixed syllabus. Each chapter shou
 
 ## Act I — Counting the Island
 
-**Question:** What can we construct when we know only how to add?
+**Question:** We remember arithmetic. Why do its rules work, and what can we establish from them?
 
 - **01. One Thing, Two Things** — Distinguish objects, choose a unit, count, compare, and add.
 - **02. The Empty Basket** — Invent zero and learn why a neutral quantity is useful.
@@ -43,7 +51,7 @@ This is a **working editorial roadmap**, not a fixed syllabus. Each chapter shou
 - **05. Sharing the Harvest** — Divide quantities into equal groups; invent fractions and rational arithmetic.
 - **06. Can We Always Share Exactly?** — Explore ratios, remainders, and the first limitations of fractions.
 
-**Earned:** integers, multiplication, division, fractions, basic equations.  
+**Justified:** units, zero, inverse operations, repeated addition, equal sharing, fractions, and elementary equation-solving. The procedures were familiar; their explanations were not.  
 **Open question:** What if we need more precision than our present fractions conveniently provide?
 
 ## Act II — Patterns in the Sand
@@ -62,7 +70,7 @@ This is a **working editorial roadmap**, not a fixed syllabus. Each chapter shou
 
 ## Act III — The Shape of the Shore
 
-**Question:** How do we describe a path, a distance, or a turn using arithmetic?
+**Question:** What were those half-remembered ideas about angles, geometry, and sine and cosine actually describing?
 
 - **13. A Map Made of Numbers** — Ordered pairs, coordinates, displacement, and signed directions.
 - **14. The Shortest Walk** — Squares, the Pythagorean relationship, and numerical square-root approximations.
@@ -150,6 +158,7 @@ Each chapter should be written in this order:
 - [x] Book title and premise
 - [x] Introductory README
 - [x] Initial six-act roadmap
+- [ ] Revise early chapters to emphasize justification rather than first discovery
 - [ ] Agree on act order and chapter count
 - [x] Agree on narrator and style
 - [x] Create dependency graph and lesson mastery tracker
