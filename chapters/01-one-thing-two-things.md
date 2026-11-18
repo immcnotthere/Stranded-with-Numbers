@@ -30,6 +30,8 @@ A unit must remain the same throughout a comparison. If the shell is filled to d
 
 The number and its unit belong together.
 
+*Reference note:* OpenStax treats whole-number counting and addition concretely in [Prealgebra §1.2](../REFERENCES.md#o1); the choice of a physical measurement unit here is the castaway's own modeling decision.
+
 ### Checkpoint A
 
 A pile contains eight short sticks. Another contains five long sticks. Does the first pile contain more *wood*?
@@ -55,7 +57,7 @@ He wrote:
 
 **Counting rule.** If every object is counted exactly once, rearranging the objects does not change the total.
 
-This is more than a habit. It is a claim about matching objects: after the rearrangement, each original stone corresponds to exactly one stone in the new arrangement.
+This is more than a habit. It is a claim about matching objects: after the rearrangement, each original stone corresponds to exactly one stone in the new arrangement. In formal mathematics, this is a **bijection**—a one-to-one and onto matching; see [set-theoretic counting](../REFERENCES.md#s2) and [OpenStax's introduction to cardinality](../REFERENCES.md#o4).
 
 There is a limitation. A pile of five stones and a pile of five shells have the same **number of objects**, not the same weight, size, or usefulness.
 
@@ -83,7 +85,7 @@ But now he could explain what it meant: the two collections contain no shared st
 
 The condition matters. If he counts the *same* stone in both groups, adding the two counts would count that stone twice.
 
-**Addition of counts** combines collections that do not overlap.
+**Addition of counts** combines collections that do not overlap. For distinct-object counts, [OpenStax §1.4](../REFERENCES.md#o5) gives the general overlap correction, \(|A\cup B|=|A|+|B|-|A\cap B|\); when the sets are disjoint, the intersection is empty and the correction vanishes.
 
 ### An unexpected question
 
@@ -103,7 +105,7 @@ So:
 
 The arithmetic rule had a physical explanation: exchanging the positions of two separate groups changes neither group nor their combined collection.
 
-He remembered that this property had a name. He did not need the name to see why it was true.
+He could give this property a name. He did not need the name to see why it was true. OpenStax [states and illustrates the commutative law](../REFERENCES.md#o2); the rearrangement of stones is our concrete explanation, not a formal induction proof.
 
 *Later label:* **commutativity of addition**.
 
@@ -137,7 +139,7 @@ Thus, for counts of separate groups:
 
 The letters do not introduce a mysterious new operation. They stand for any three counts of separate groups. We have given a general reason, rather than checking just one set of numbers: either grouping combines exactly the same objects.
 
-*Later label:* **associativity of addition**.
+*Later label:* **associativity of addition**. OpenStax [§7.2](../REFERENCES.md#o2) states this law for ordinary arithmetic; the general natural-number proof will appear in the [advanced interlude](01a-laws-beneath-the-stones.md).
 
 ## A question that refuses to leave
 
@@ -174,6 +176,10 @@ You have three separate piles containing two, four, and five stones.
 **Mastery test:** Can you explain, using collections rather than a memorized rule, why changing the order or grouping of additions preserves the total?
 
 If yes, mark Lesson 01 at **3 — independent** in the [concept tracker](../CONCEPT_TRACKER.csv). A score of **4 — can derive and transfer** requires applying the same reasoning to an unfamiliar counting problem.
+
+## Reading check
+
+Our stone experiments illustrate the elementary laws; [OpenStax *Prealgebra 2e* §§1.2 and 7.2](../REFERENCES.md) confirms the terminology, and [*Contemporary Mathematics* §§1.1 and 1.4](../REFERENCES.md) checks the corresponding set-counting language. These sources introduce the ideas; the formally quantified Peano proofs are in Interlude 01A with specialized sources. All source links and their scope are collected in [REFERENCES.md](../REFERENCES.md).
 
 ## Invention ledger
 
