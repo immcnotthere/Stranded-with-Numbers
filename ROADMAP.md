@@ -27,6 +27,8 @@ He has scattered memories of school: **sine, cosine, angles, geometry, and linea
 7. **Avoid artificial survival problems.** The island is a narrative constraint, not an excuse for contrived word problems.
 8. **Familiar names are clues, not shortcuts.** Only the *names* sine, cosine, angles, geometry, and linear equations are remembered. No trigonometric values, identities, definitions, formulas, or procedures are available.
 
+**Dependency policy:** The 40-chapter [concept tracker](CONCEPT_TRACKER.csv) tracks narrative milestones. [ADDITION_MASTERY.csv](ADDITION_MASTERY.csv) tracks the twenty underlying proof competencies for Chapter 01A. Do not confuse remembered computational ability with demonstrated foundational mastery.
+
 ## The six acts
 
 | Act | Narrative question | Mathematical inventions | Milestone |
@@ -44,7 +46,8 @@ He has scattered memories of school: **sine, cosine, angles, geometry, and linea
 
 **Question:** We remember arithmetic. Why do its rules work, and what can we establish from them?
 
-- **01. One Thing, Two Things** — Distinguish objects, choose a unit, count, compare, and add.
+- **01. One Thing, Two Things** — Distinguish objects, choose a unit, count, compare, and add. [Read Chapter 01](chapters/01-one-thing-two-things.md).
+- **01A. The Laws Beneath the Stones (foundations interlude)** — From disjoint unions and Peano recursion through induction proofs, monoids, integer group completion, infinite and ordinal exceptions, and the philosophy of proof. [Read interlude](chapters/01a-laws-beneath-the-stones.md) · [20-item mastery tracker](ADDITION_MASTERY.csv). This is a depth branch, not a renumbered main chapter.
 - **02. The Empty Basket** — Invent zero and learn why a neutral quantity is useful.
 - **03. Giving Things Back** — Reverse addition; introduce subtraction and negative quantities when a debt or direction requires them.
 - **04. Too Many Additions** — Invent multiplication as a shortcut for repeated equal additions.
