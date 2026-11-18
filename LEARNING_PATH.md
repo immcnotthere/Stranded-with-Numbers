@@ -2,6 +2,14 @@
 
 This file is the readable companion to [CONCEPT_TRACKER.csv](CONCEPT_TRACKER.csv). The CSV is the **editable source of truth** for lesson status, scores, review dates, and notes.
 
+## What the castaway remembers
+
+The castaway can **count, add, subtract, multiply, and divide**, including ordinary calculations with fractions. These are remembered procedures, **not yet justified mathematical ideas**. He does not know why the rules work, when they fail, or how to reconstruct them from first principles.
+
+He has scattered memories of school: **sine, cosine, angles, geometry, and linear equations**. These are clues and narrative foreshadowing, not tools he may invoke without rebuilding them.
+
+**The challenge is no longer to invent arithmetic without knowing it. It is to justify familiar arithmetic, discover what it can do, and rebuild the forgotten mathematics of change.**
+
 ## The learning path
 
 ```mermaid
@@ -47,8 +55,8 @@ The diagram groups chapters for readability. **Exact prerequisites for each indi
 
 ## Lesson routine
 
-1. **The scene:** A short castaway episode poses one concrete need.
-2. **The notebook:** Record what we already know; calculate a small example.
+1. **The scene:** A short castaway episode poses one concrete need, sometimes prompted by a fragment of remembered mathematics.
+2. **The notebook:** Use remembered arithmetic, then ask which rules justify the calculation.
 3. **The invention:** Name the new operation or concept only after constructing it.
 4. **The experiment:** Test the idea numerically and track error where possible.
 5. **The check:** Solve one fresh problem without prompts.
@@ -69,7 +77,7 @@ It does **not** require limits: at this stage, the goal is to *test* Euler's ide
 
 The book uses **two complementary registers**:
 
-**Story:** Brief, concrete, literary, and sometimes playful. A recurring castaway encounters a genuine problem on the island. No lecture disguised as dialogue, and no contrived survival problem merely to introduce a formula.
+**Story:** Brief, concrete, literary, and sometimes playful. The castaway remembers arithmetic procedures but cannot explain them, and half-remembers trigonometry, geometry, and linear equations. A recurring castaway encounters a genuine problem on the island. No lecture disguised as dialogue, and no contrived survival problem merely to introduce a formula.
 
 **Notebook:** Direct and precise. It shows the arithmetic, asks the reader to predict the next result, explains why an operation is needed, and records what is actually established. Numerical evidence is labeled as such.
 
