@@ -6,7 +6,7 @@ This file is the readable companion to [CONCEPT_TRACKER.csv](CONCEPT_TRACKER.csv
 
 The castaway can **count, add, subtract, multiply, and divide**, including ordinary calculations with fractions. These are remembered procedures, **not yet justified mathematical ideas**. He does not know why the rules work, when they fail, or how to reconstruct them from first principles.
 
-He has scattered memories of school: **sine, cosine, angles, geometry, and linear equations**. These are clues and narrative foreshadowing, not tools he may invoke without rebuilding them.
+He has scattered memories of school: **sine, cosine, angles, geometry, and linear equations**. He remembers only the words—not a single definition, identity, value, formula, or method. These are narrative clues, not usable mathematical knowledge.
 
 **The challenge is no longer to invent arithmetic without knowing it. It is to justify familiar arithmetic, discover what it can do, and rebuild the forgotten mathematics of change.**
 
@@ -77,7 +77,7 @@ It does **not** require limits: at this stage, the goal is to *test* Euler's ide
 
 The book uses **two complementary registers**:
 
-**Story:** Brief, concrete, literary, and sometimes playful. The castaway remembers arithmetic procedures but cannot explain them, and half-remembers trigonometry, geometry, and linear equations. A recurring castaway encounters a genuine problem on the island. No lecture disguised as dialogue, and no contrived survival problem merely to introduce a formula.
+**Story:** Brief, concrete, literary, and sometimes playful. The castaway remembers arithmetic procedures but cannot explain them; he recalls only the names of trigonometry, geometry, and linear equations, with no associated formulas or facts. A recurring castaway encounters a genuine problem on the island. No lecture disguised as dialogue, and no contrived survival problem merely to introduce a formula.
 
 **Notebook:** Direct and precise. It shows the arithmetic, asks the reader to predict the next result, explains why an operation is needed, and records what is actually established. Numerical evidence is labeled as such.
 
