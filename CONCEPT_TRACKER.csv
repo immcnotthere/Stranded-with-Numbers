@@ -1,6 +1,6 @@
 Lesson ID,Act,Chapter,Concept,Prerequisite lesson IDs,Mastery check,Status,Mastery 0-4,Last reviewed,Notes
 "01","I","One Thing, Two Things","Units and counting; addition foundations branch A01-A20","","Count and compare chosen units; see ADDITION_MASTERY.csv for proofs","Not started","0","",""
-"02","I","The Empty Basket","Zero","01","Use zero as an additive identity","Not started","0","",""
+"02","I","The Empty Basket","Zero","01;A01;A02","Use zero as an additive identity","Not started","0","",""
 "03","I","Giving Things Back","Subtraction and negatives","02","Undo additions and represent debts","Not started","0","",""
 "04","I","Too Many Additions","Multiplication","01;03","Build multiplication from repeated addition","Not started","0","",""
 "05","I","Sharing the Harvest","Division and fractions","04","Share equally and compute with fractions","Not started","0","",""
