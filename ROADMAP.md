@@ -165,5 +165,7 @@ Each chapter should be written in this order:
 - [ ] Agree on act order and chapter count
 - [x] Agree on narrator and style
 - [x] Create dependency graph and lesson mastery tracker
-- [ ] Draft Chapter 01
+- [x] Draft Chapter 01
 - [ ] Review and revise Chapter 01 together
+- [x] Write addition foundations interlude 01A
+- [x] Add 20-concept addition dependency and mastery tracker
